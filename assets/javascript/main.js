@@ -4,7 +4,7 @@ window.addEventListener('load', event => {
   {% include_relative utils.js %}
   {% include_relative navigation.js %}
   {% include_relative imageLoader.js %}
-  {% include_relative routes.js %}
+   // include_relative routes.js %}
 
   const nav = new Navigation()
   const loader = new ImageLoader()
