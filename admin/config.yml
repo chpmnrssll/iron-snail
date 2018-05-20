@@ -1,8 +1,10 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+  squash_merges: true
 publish_mode: editorial_workflow
 media_folder: "assets/uploads" # Media files will be stored in the repo under assets/uploads
+display_url: https://distracted-pasteur-57fd67.netlify.com/
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/posts
