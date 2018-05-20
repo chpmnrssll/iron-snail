@@ -1,7 +1,7 @@
 author: Russell Chapman
 description:
 title: Iron Snail
-baseurl: "/iron-snail"
+# baseurl: "/iron-snail"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github: [metadata]
