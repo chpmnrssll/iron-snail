@@ -1,0 +1,15 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+{%- include head.html -%}
+<body>
+  {%- include navigation.html -%}
+  <main class="content">
+    {{ content }}
+  </main>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+  <!-- <script defer src="/assets/javascript/vendor/page/page.js"></script> -->
+  <!-- <script defer src="/assets/javascript/main.js"></script> -->
+</body>
+</html>

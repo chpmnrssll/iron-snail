@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Sarpanch';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sarpanch Regular'), local('Sarpanch-Regular'), url('https://fonts.gstatic.com/s/sarpanch/v3/hESy6Xt4NCpRuk6Pzi2HTos.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Sarpanch Black'), local('Sarpanch-Black'), url('https://fonts.gstatic.com/s/sarpanch/v3/hES16Xt4NCpRuk6PziUEaZ7Y3nA.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url('https://fonts.gstatic.com/s/sharetechmono/v7/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Teko Regular'), local('Teko-Regular'), url('https://fonts.gstatic.com/s/teko/v7/LYjNdG7kmE0gfaN9pQ.woff2') format('woff2');
+}
+
+:root {
+  // Responsive font-size https://olivermak.es/2017/02/fluid-typography/
+  // @include media-query('mobile-s') { font-size: calc(1.1rem + 1.1vw); }
+  // @include media-query('mobile-m') { font-size: calc(1.2rem + 1.2vw); }
+  // @include media-query('mobile-l') { font-size: calc(1.3rem + 1.3vw); }
+  // @include media-query('tablet') { font-size: calc(1.1rem + 1.1vw); }
+  // @include media-query('laptop-s') { font-size: calc(1.2rem + 1.2vw); }
+  // @include media-query('laptop-m') { font-size: calc(1.3rem + 1.3vw); }
+  // @include media-query('laptop-l') { font-size: calc(1.4rem + 1.4vw); }
+  @include media-query('4k') { font-size: calc(1.5rem + 1.5vw); }
+  font-size: calc(1.25rem + 1.25vw);
+}
+
+body {
+  font-family: 'Teko';
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Sarpanch';
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+h3 {
+  font-size: .75rem;
+  line-height: .75rem;
+}
+
+h4 {
+  font-size: .65rem;
+  line-height: .65rem;
+}
+
+h5 {
+  font-size: .55rem;
+  line-height: .55rem;
+}
+
+h6 {
+  font-size: .5rem;
+  line-height: .5rem;
+}
+
+time {
+  font-size: .65rem;
+  line-height: .65rem;
+}

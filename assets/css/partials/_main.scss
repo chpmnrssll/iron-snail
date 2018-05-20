@@ -1,0 +1,49 @@
+html {
+  /// https://aykevl.nl/2014/09/fix-jumping-scrollbar
+  // increase margin-right by negative scrollbar width
+  margin-right: calc(-calc(100vw - 100%) + 1rem);
+}
+
+body {
+  background: var(--color-primary-dark);
+  color: var(--color-primary-lighter);
+  min-height: 100vh;
+  // overflow-x: hidden;
+  // perspective: 50vw;
+  // transform-style: preserve-3d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-primary-lightest);
+  text-shadow: 2px 2px 2px var(--color-primary-darkest);
+}
+
+main {
+  min-height: 75vh;
+  // overflow: hidden;
+  // perspective: 50vw;
+  // transform-style: preserve-3d;
+}
+
+a {
+  color: var(--color-primary-light);
+  text-shadow: 2px 2px 2px var(--color-primary-darkest);
+
+  &.disabled {
+    color: var(--color-primary-darker);
+    cursor: default;
+    pointer-events: none;
+    text-shadow: 0 0 8px var(--color-primary-darkest), 2px 2px 2px var(--color-primary-darkest);
+  }
+
+  &:active,
+  &:hover {
+    color: var(--color-primary-lighter);
+    text-shadow: 0 0 8px var(--color-primary-light), 2px 2px 2px var(--color-primary-darkest);
+  }
+}
