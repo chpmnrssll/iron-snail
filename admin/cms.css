@@ -401,7 +401,7 @@ textarea {
 }
 
 .nc-dropdownButton {
-  background-color: #798291;
+  background-color: var(--color-primary-dark);
   border: 0;
   border-radius: 5px;
   color: #fff;
@@ -411,6 +411,10 @@ textarea {
   height: 36px;
   line-height: 36px;
   padding: 0 40px 0 20px
+}
+
+.nc-dropdownButton:hover {
+  box-shadow: 0px 0px 8px 0 var(--color-primary);
 }
 
 .nc-dropdownButton:after {
@@ -574,7 +578,8 @@ textarea {
 }
 
 .nc-appHeader-quickNew:focus, .nc-appHeader-quickNew:hover {
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
+  box-shadow: 0px 0px 8px 0 var(--color-primary);
   color: #fff
 }
 
@@ -731,7 +736,8 @@ textarea {
 }
 
 .nc-collectionPage-topNewButton:focus, .nc-collectionPage-topNewButton:hover {
-  background-color: var(--color-primary-);
+  /* background-color: var(--color-primary-); */
+  box-shadow: 0px 0px 8px 0 var(--color-primary);
   color: #fff
 }
 
@@ -755,7 +761,7 @@ textarea {
 
 .nc-collectionPage-top-viewControls-button {
   background-color: initial;
-  color: #b3b9c4;
+  color: var(--color-primary-dark);
   display: block;
   margin: 0 4px;
   padding: 0
@@ -793,9 +799,13 @@ textarea {
   overflow: hidden
 }
 
-.nc-entryListing-gridCard, .nc-entryListing-gridCard:hover {
-  background-color: #fff;
+.nc-entryListing-gridCard {
+  background-color: var(--color-primary-darker);
   color: #798291
+}
+
+.nc-entryListing-gridCard:hover {
+  box-shadow: 0px 0px 8px 0 var(--color-primary);
 }
 
 .nc-entryListing-cardImage {
@@ -813,7 +823,7 @@ textarea {
 
 .nc-entryListing-cardBody:after {
   bottom: 0;
-  box-shadow: inset 0 -15px 24px #fff;
+  box-shadow: inset 0 -15px 24px var(--color-primary-darkest);
   content: "";
   display: block;
   height: 140%;
@@ -824,7 +834,7 @@ textarea {
 }
 
 .nc-entryListing-listCard {
-  background-color: #fff;
+  background-color: var(--color-primary-dark);
   border-radius: 5px;
   box-shadow: 0 2px 6px 0 rgba(68, 74, 87, .05), 0 1px 3px 0 rgba(68, 74, 87, .1);
   margin-bottom: 16px;
@@ -835,7 +845,8 @@ textarea {
 }
 
 .nc-entryListing-listCard:hover {
-  background-color: #fff
+  /* background-color: #fff; */
+  box-shadow: 0px 0px 8px 0 var(--color-primary);
 }
 
 .nc-entryListing-listCard-title {
@@ -1037,7 +1048,7 @@ textarea {
 }
 
 .nc-workflow-top {
-  background-color: #fff;
+  background-color: var(--color-primary-darker);
   border-radius: 5px;
   box-shadow: 0 2px 6px 0 rgba(68, 74, 87, .05), 0 1px 3px 0 rgba(68, 74, 87, .1);
   margin-bottom: 28px;
