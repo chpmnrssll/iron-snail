@@ -509,7 +509,7 @@ textarea {
 }
 
 .nc-appHeader-main {
-  background-color: #fff;
+  background-color: var(--color-primary-darker);
   box-shadow: 0 2px 6px 0 rgba(68, 74, 87, .05), 0 1px 3px 0 rgba(68, 74, 87, .1);
   height: 56px;
   position: fixed;
@@ -543,12 +543,11 @@ textarea {
 }
 
 .nc-appHeader-button.nc-appHeader-button-active, .nc-appHeader-button:active, .nc-appHeader-button:focus, .nc-appHeader-button:hover {
-  background-color: #fff;
-  color: #3a69c7
+  color: var(--color-primary-light);
 }
 
 .nc-appHeader-button.nc-appHeader-button-active .nc-icon, .nc-appHeader-button:active .nc-icon, .nc-appHeader-button:focus .nc-icon, .nc-appHeader-button:hover .nc-icon {
-  color: #3a69c7
+  color: var(--color-primary-light);
 }
 
 .nc-appHeader-actions {
@@ -564,7 +563,7 @@ textarea {
 }
 
 .nc-appHeader-quickNew {
-  background-color: #798291;
+  background-color: var(--color-primary-dark);
   border-radius: 3px;
   color: #fff;
   font-size: 12px;
@@ -575,7 +574,7 @@ textarea {
 }
 
 .nc-appHeader-quickNew:focus, .nc-appHeader-quickNew:hover {
-  background-color: #555a65;
+  background-color: var(--color-primary);
   color: #fff
 }
 
@@ -613,7 +612,7 @@ textarea {
 }
 
 .nc-collectionPage-sidebar {
-  background-color: #fff;
+  background-color: var(--color-primary-darker);
   border-radius: 5px;
   box-shadow: 0 2px 6px 0 rgba(68, 74, 87, .05), 0 1px 3px 0 rgba(68, 74, 87, .1);
   max-height: calc(100vh - 112px);
@@ -624,7 +623,6 @@ textarea {
 }
 
 .nc-collectionPage-sidebarHeading {
-  color: #313d3e;
   font-size: 23px;
   font-weight: 600;
   margin: 18px 12px 12px;
@@ -688,7 +686,7 @@ textarea {
 }
 
 .nc-collectionPage-top {
-  background-color: #fff;
+  background-color: var(--color-primary-darker);
   border-radius: 5px;
   box-shadow: 0 2px 6px 0 rgba(68, 74, 87, .05), 0 1px 3px 0 rgba(68, 74, 87, .1);
   margin-bottom: 28px;
@@ -720,7 +718,7 @@ textarea {
 }
 
 .nc-collectionPage-topNewButton {
-  background-color: #798291;
+  background-color: var(--color-primary-dark);
   border: 0;
   border-radius: 5px;
   box-shadow: 0 4px 12px 0 rgba(68, 74, 87, .15), 0 1px 3px 0 rgba(68, 74, 87, .25);
@@ -733,7 +731,7 @@ textarea {
 }
 
 .nc-collectionPage-topNewButton:focus, .nc-collectionPage-topNewButton:hover {
-  background-color: #555a65;
+  background-color: var(--color-primary-);
   color: #fff
 }
 
@@ -750,7 +748,7 @@ textarea {
 }
 
 .nc-collectionPage-top-viewControls-text {
-  color: #798291;
+  color: var(--color-primary);
   font-size: 14px;
   margin-right: 12px
 }
@@ -772,7 +770,7 @@ textarea {
 }
 
 .nc-collectionPage-top-viewControls-buttonActive {
-  color: #3a69c7
+  color: var(--color-primary);
 }
 
 .nc-entryListing-cardsGrid {
