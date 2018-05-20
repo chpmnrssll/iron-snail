@@ -6,11 +6,9 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 
-# gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages', group: :jekyll_plugins
 # gem "minima"
 
-gem "jekyll", "~> 3.8"
-
-gem "jekyll-feed", "~> 0.9.3"
-
-gem "jekyll-seo-tag", "~> 2.4"
+# gem "jekyll", "~> 3.8"
+# gem "jekyll-feed", "~> 0.9.3"
+# gem "jekyll-seo-tag", "~> 2.4"
