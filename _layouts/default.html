@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
 {%- include head.html -%}
+
 <body>
   {%- include navigation.html -%}
   <main class="content">
@@ -11,5 +12,27 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
   <!-- <script defer src="/assets/javascript/vendor/page/page.js"></script> -->
   <!-- <script defer src="/assets/javascript/main.js"></script> -->
+  <!-- Add a menu:
+   Log in / Sign up - when the user is not logged in
+   Username / Log out - when the user is logged in
+  -->
+  <div data-netlify-identity-menu></div>
+
+  <!-- Add a simpler button:
+    Simple button that will open the modal.
+  -->
+  <div data-netlify-identity-button>Login with Netlify Identity</div>
+  <script>
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on('"init', user => {
+    if (!user) {
+      window.netlifyIdentity.on('login', () => {
+        document.location.href = '/admin/'
+      })
+    }
+  })
+}
+  </script>
 </body>
+
 </html>
