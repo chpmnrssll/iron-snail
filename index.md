@@ -4,6 +4,7 @@
 
 layout: default
 ---
+![can of worms](/assets/images/canOfWorms.svg)
 # iron-snail
 - [Jekyll](https://jekyllrb.com/) static site generator
 - Build/Deploy with [Netlify](https://www.netlify.com/)
