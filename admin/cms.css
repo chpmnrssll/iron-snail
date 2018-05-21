@@ -1,3 +1,7 @@
+.frame-content {
+  color: var(--color-primary-lighter);
+}
+
 .notif-transition-enter {
   opacity: 0.01;
   transition: opacity .5s ease-in;
@@ -369,7 +373,7 @@ textarea {
 }
 
 .nc-toggle-background {
-  background-color: #3a69c7;
+  background-color: var(--color-primary-dark);
   border-radius: 10px;
   height: 14px;
   width: 34px
@@ -834,7 +838,7 @@ textarea {
 }
 
 .nc-entryListing-listCard {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primary-darker);
   border-radius: 5px;
   box-shadow: 0 2px 6px 0 rgba(68, 74, 87, .05), 0 1px 3px 0 rgba(68, 74, 87, .1);
   margin-bottom: 16px;
@@ -1156,7 +1160,7 @@ textarea {
 }
 
 .nc-entryEditor-toolbar {
-  background-color: #fff;
+  background-color: var(--color-primary-darker);
   box-shadow: 0 2px 6px 0 rgba(68, 74, 87, .05), 0 1px 3px 0 rgba(68, 74, 87, .1), 0 2px 54px rgba(0, 0, 0, .1);
   display: flex;
   height: 66px;
@@ -1192,7 +1196,7 @@ textarea {
 }
 
 .nc-entryEditor-toolbar-backSection, .nc-entryEditor-toolbar-metaSection {
-  border: 0 solid #dfdfe3
+  border: 0 solid var(--color-primary-lighter);
 }
 
 .nc-entryEditor-toolbar-dropdown {
@@ -1219,7 +1223,7 @@ textarea {
 }
 
 .nc-entryEditor-toolbar-backSection:focus, .nc-entryEditor-toolbar-backSection:hover {
-  background-color: #f1f2f4
+  /* background-color: #f1f2f4 */
 }
 
 .nc-entryEditor-toolbar-metaSection {
@@ -1228,14 +1232,14 @@ textarea {
 }
 
 .nc-entryEditor-toolbar-backArrow {
-  color: #313d3e;
+  color: var(--color-primary);
   font-size: 21px;
   font-weight: 600;
   margin-right: 16px
 }
 
 .nc-entryEditor-toolbar-backCollection {
-  color: #313d3e;
+  color: var(--color-primary);
   font-size: 14px
 }
 
@@ -1291,20 +1295,20 @@ textarea {
 }
 
 .nc-entryEditor-toolbar-deleteButton {
-  background-color: #fcefea;
-  color: #ff003b
+  background-color: var(--color-primary-dark);
+  color: #d92626;
 }
 
 .nc-entryEditor-toolbar-saveButton {
-  background-color: #e8f5fe;
-  color: #3a69c7
+  background-color: var(--color-primary-dark);
+  color: var(--color-primary-light);
 }
 
 .nc-entryEditor-toolbar-statusPublished {
-  background-color: #fff;
-  border: 1px solid #dfdfe3;
+  background-color: var(--color-primary-dark);
+  border: 1px solid var(--color-primary);
   border-radius: 5px;
-  color: #17a2b8;
+  color: var(--color-primary-light);
   cursor: default;
   font-size: 14px;
   font-weight: 500;
@@ -1351,7 +1355,7 @@ textarea {
 }
 
 .nc-controlPane-label {
-  background-color: #dfdfe3;
+  background-color: var(--color-primary-darker);
   border: 0;
   border-radius: 3px 3px 0 0;
   color: #7a8291;
@@ -1377,8 +1381,8 @@ textarea {
 }
 
 .nc-controlPane-label:after {
-  background-color: #fff;
-  border-bottom-left-radius: 3px
+  /* background-color: #fff; */
+  /* border-bottom-left-radius: 3px */
 }
 
 .nc-controlPane-labelActive {
@@ -1387,12 +1391,12 @@ textarea {
 }
 
 .nc-controlPane-widget {
-  background-color: #fff;
-  border: 2px solid #dfdfe3;
+  background-color: var(--color-primary-darker);
+  /* border: 2px solid #dfdfe3; */
   border-radius: 5px;
   border-top-left-radius: 0;
   box-shadow: none;
-  color: #444a57;
+  color: var(--color-primary-lighter);
   display: block;
   font-size: 15px;
   line-height: 1.5;
@@ -1443,7 +1447,7 @@ select.nc-controlPane-widget {
 }
 
 .nc-previewPane-frame {
-  background: #fff;
+  background: var(--color-primary-darker);
   border: none;
   border-radius: 5px;
   height: 100%;
@@ -1869,7 +1873,8 @@ select.nc-controlPane-widget {
 
 .nc-toolbar-Toolbar {
   align-items: center;
-  background-color: #dfdfe3;
+  background-color: var(--color-primary-darker);
+  border-bottom: 2px solid var(--color-primary-dark);
   display: flex;
   justify-content: space-between;
   min-height: 58px;
@@ -1894,7 +1899,7 @@ select.nc-controlPane-widget {
 }
 
 .nc-markdownWidget-toolbar-toggle-label-active {
-  color: #3a69c7;
+  color: var(--color-primary-lightest);
   font-weight: 600
 }
 
