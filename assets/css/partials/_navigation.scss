@@ -22,6 +22,7 @@
     cursor: pointer;
     font-size: 1.7rem;
     text-shadow: 2px 2px 4px var(--color-primary-darkest);
+    z-index: 100;
 
     &:active,
     &:hover {
